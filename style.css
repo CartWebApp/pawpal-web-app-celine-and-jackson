@@ -25,9 +25,13 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
-    height: 862px;
+    height: 987px;
     image-rendering: crisp-edges;
+    background-image: url(homepage.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
    .dropdown {
     position: relative;
@@ -202,4 +206,25 @@ body{
 }
 .text-overlay a:hover {
     text-decoration: underline;
+}
+.login-button {
+    background: rgba(253 92 92);
+    border-style: solid;
+    border-color: rgba(253 92 92);
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 200px;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(253, 92, 92, 0.578);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 60%;
+    cursor: pointer;
+    overflow: hidden;
 }
