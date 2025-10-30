@@ -203,3 +203,23 @@ body{
 .text-overlay a:hover {
     text-decoration: underline;
 }
+.back {
+    display: inline-block;
+    transform: translate(10%, -500%);
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #878787;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #a8a8a8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
