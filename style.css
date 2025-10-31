@@ -31,12 +31,14 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 987px;
     image-rendering: crisp-edges;
     background-image: url(homepage.png);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 1558px;
+    height: 876px;
+    flex-shrink: 0;
+    aspect-ratio: 779/438;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 
 }
    .dropdown {
@@ -223,7 +225,6 @@ body{
     right: 50%;
     transform: translate(50%, -50%);
 
-
 }
 .cta.button.primary {
     background: rgba(253 92 92);
@@ -247,24 +248,13 @@ body{
     overflow: hidden;
 }
 .cta.button.secondary {
-     background: rgba(253 92 92);
+    text-decoration: none;
     border-style: solid;
     border-color: rgba(253 92 92);
-    border-radius: 5px;
     padding: 15px 30px;
-    width: 200px;
     color: white;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 6px 20px rgba(120, 23, 23, 0.884);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: 60%;
-    cursor: pointer;
-    overflow: hidden;
+   border-radius: 40px;
+   background: #FD5C5C;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
 }
