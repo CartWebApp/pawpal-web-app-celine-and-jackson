@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +11,7 @@ body{
 }
 .navbar {
     display: flex;
+    width: 100%;
     gap: 1rem;
     justify-content: flex-start;
     padding: 1rem;
@@ -32,6 +37,7 @@ body{
    .dropdown {
     position: relative;
     display: inline-block;
+    transform: translateX(-50%);
     }
 
     .dropbtn {
@@ -42,6 +48,7 @@ body{
     border-radius: 0.5rem;
     cursor: pointer; 
     border: solid 1px white;
+
     }
     .dropdown-content {
     display: none; 
@@ -49,7 +56,8 @@ body{
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 500;
+    position: fixed;
     }
     .dropdown-content a {
     color: rgb(0, 0, 0);
@@ -67,9 +75,6 @@ body{
         display: flex;
         flex-basis: 90%;
         justify-content: center;
-    }
-    .dropdown {
-        transform: translateX(-50%);
     }
 .img1 {
     display: block;
@@ -130,7 +135,7 @@ body{
     position: absolute;
     top: 20%;
     left: 50%;
-    transform: translate(-50%, -25%);
+    transform: translate(-50%, 28%);
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
@@ -140,7 +145,6 @@ body{
 .petinfo {
     position: relative;
     width: 100%;
-    height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -222,4 +226,31 @@ body{
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+}
+.on-off{
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #a8a8a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.language{
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #a8a8a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.agree{
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #a8a8a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
