@@ -294,3 +294,36 @@ body{
 #profile-upload {
     display: none;
 }
+.terms-conditions {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}   
+.text-overlay1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 450%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    color:antiquewhite;
+}
+#username {
+    width: 50%;
+    height: 30px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+#password {
+    width: 50%;
+    height: 30px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
