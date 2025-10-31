@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -207,7 +213,19 @@ body{
 .text-overlay a:hover {
     text-decoration: underline;
 }
-.login-button {
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 55%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+
+}
+.cta.button.primary {
     background: rgba(253 92 92);
     border-style: solid;
     border-color: rgba(253 92 92);
@@ -220,11 +238,33 @@ body{
     font-weight: 600;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 6px 20px rgba(253, 92, 92, 0.578);
+    box-shadow: 0 6px 20px rgba(120, 23, 23, 0.884);
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
     top: 60%;
     cursor: pointer;
     overflow: hidden;
+}
+.cta.button.secondary {
+     background: rgba(253 92 92);
+    border-style: solid;
+    border-color: rgba(253 92 92);
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 200px;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 6px 20px rgba(120, 23, 23, 0.884);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 60%;
+    cursor: pointer;
+    overflow: hidden;
+
 }
