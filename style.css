@@ -444,3 +444,18 @@ body{
     margin-bottom: 50px;
     line-height: 1.4;
 }
+}
+.cta-button-primary {
+    background: #FF6B7A;
+    color: white;
+}
+.cta-button-secondary {
+    padding: 1px 20px;
+    border-radius: 20px;
+    background: #FF6B7A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    transform: translate(550px, -50px);
+    max-width: 160px
+}
