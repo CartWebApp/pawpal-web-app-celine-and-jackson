@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
@@ -217,44 +216,67 @@ body{
 }
 .cta-buttons {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 55%;
-    right: 50%;
-    transform: translate(50%, -50%);
-
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
-.cta.button.primary {
-    background: rgba(253 92 92);
-    border-style: solid;
-    border-color: rgba(253 92 92);
-    border-radius: 5px;
-    padding: 15px 30px;
-    width: 200px;
-    color: white;
-    border-radius: 30px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-align: center;
-    text-decoration: none;
-    box-shadow: 0 6px 20px rgba(120, 23, 23, 0.884);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top: 60%;
+
+.btn {
+    padding: 20px 60px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
     cursor: pointer;
-    overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    min-width: 300px;
 }
-.cta.button.secondary {
-    text-decoration: none;
-    border-style: solid;
-    border-color: rgba(253 92 92);
-    padding: 15px 30px;
-    color: white;
-   border-radius: 40px;
-   background: #FD5C5C;
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 
+.btn-login {
+    background: #FF6B7A;
+    color: white;
+}
+
+.btn-login:hover {
+    background: #FF4F5F;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(255,107,122,0.4);
+}
+
+.btn-create {
+    background: #FF6B7A;
+    color: white;
+}
+
+.btn-create:hover {
+    background: #FF4F5F;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(255,107,122,0.4);
+}
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-bottom: 50px;
+    line-height: 1.4;
 }
