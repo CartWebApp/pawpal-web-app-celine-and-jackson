@@ -327,3 +327,37 @@ body{
     margin-left: auto;
     margin-bottom: 10px;
 }
+.delete{
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-pet-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.delete-pet-button {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    padding: 15px 25px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
