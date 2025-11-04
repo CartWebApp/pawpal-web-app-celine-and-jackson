@@ -44,8 +44,8 @@ body{
     image-rendering: crisp-edges;
     background-image: url(Furry\ buddies.png);
     background-size: cover;
-    width: 1510px;
-    height: 876px;
+    width: 2040px;
+    height: 874px;
     flex-shrink: 0;
     aspect-ratio: 779/438;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
@@ -341,7 +341,7 @@ body{
 .text-overlay1 {
     position: absolute;
     gap: 15px;
-    transform: translate(550px, 200px);
+    transform: translate(800px, 200px);
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -587,7 +587,7 @@ body{
     width: 310px;
     margin: auto;
     color: white;
-    text-align: center;
+    transform: translate(0, 0);
 }
 
 .text-overlay-login {
