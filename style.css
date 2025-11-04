@@ -32,9 +32,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     image-rendering: crisp-edges;
-    background-image: url(homepage.png);
-    background-position: center;
-    width: 1558px;
+    background-image: url(Furry\ buddies.png);
+    background-size: cover;
+    width: 1510px;
     height: 876px;
     flex-shrink: 0;
     aspect-ratio: 779/438;
@@ -219,7 +219,7 @@ body{
 }
 .back {
     display: inline-block;
-    transform: translate(10%, -500%);
+    transform: translate(10%, -00%);
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #878787;
@@ -245,6 +245,10 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.on-off .on {
+    background-color: green;
+    color:white;
 }
 .language{
     margin-left: 20px;
@@ -290,7 +294,7 @@ body{
 }
 .custom-file-upload {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     cursor: pointer;
     color: #333;
@@ -314,16 +318,22 @@ body{
 }   
 .text-overlay1 {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 450%);
+    gap: 15px;
+    transform: translate(550px, 200px);
     padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content:center;
+    justify-content:center;
     font-size: 24px;
+    max-width:500px;
     font-weight: bold;
     color:antiquewhite;
+}
+.text-overlay1 h1 {
+    font-size: 150px;
 }
 #username {
     width: 50%;
@@ -381,12 +391,14 @@ body{
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 .cta-buttons {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
 }
+
 
 .btn {
     padding: 20px 60px;
@@ -447,8 +459,9 @@ body{
     margin-bottom: 50px;
     line-height: 1.4;
 }
-}
 .cta-button-primary {
+    padding: 1px 20px;
+    border-radius: 20px;
     background: #FF6B7A;
     color: white;
 }
@@ -459,8 +472,8 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    transform: translate(550px, -50px);
-    max-width: 160px
+    max-width: 160px;
+    text-align: center;
 }
 .text-overlay-login {
     position: absolute;
