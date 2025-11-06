@@ -525,7 +525,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+}
 @media (min-width: 430px) and (max-width: 767px) {
 .home-image {
     display: none;
@@ -1036,6 +1036,5 @@ body > p button {
 
 .add-pet-button {
     font-size: 18px;
-}
 }
 }
